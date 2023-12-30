@@ -286,6 +286,43 @@ form{
     flex-direction: column;
     row-gap: 40px;
 }
+/* footer */
+.footer{
+    background: #998431;
+}
+.footer__container{
+    padding: 50px 0px 50px 0px;
+}
+.footer__st__line{
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 19px 0px 19px 0px;
+}
+.footer__nd__line{
+    padding: 19px 0px 19px 0px;
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__nd__line__subtitle{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer__nd__icons{
+    display: flex;
+    column-gap: 35px;
+}
+.footer__st__line__subtitle{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
 /* adaptive */
 @media(max-width:700px){
     .nd-line-subtitle.tb::after{
