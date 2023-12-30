@@ -342,3 +342,43 @@ form{
         row-gap: 10px;
     }
 }
+@media(max-width: 1181px){
+    .request-in-table img{
+        display: none;
+    }
+    .history-main-part{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .request__container__block{
+        width: 100%;
+    }
+}
+@media(max-width:   771px){
+    .request__container__block{
+        height: auto;
+    }
+    .request-btn{
+        width: 100%;
+    }
+}
+@media(max-width: 566px){
+    .historyimg{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer__st__line, .footer__nd__line{
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+}
+
+@media(max-width: 400px){
+    .request-btn{
+        border: none;
+    }
+    .name_num{
+        flex-direction: column;
+    }
+}
