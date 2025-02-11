@@ -18,6 +18,13 @@ This landing page is designed to present the 'Le Corte' wine boutique online. It
 - HTML
 - CSS
 
+## Screenshots
+
+![lecorte](./assets/lecorte1.png)
+![lecorte](./assets/lecorte2.png)
+![lecorte](./assets/lecorte3.png)
+![lecorte](./assets/lecorte4.png)
+
 ## 📁 Folder Structure
 
 - **index.html**: Contains the structure of the landing page.
